@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>DB Ping with the SQL query</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Ping DB every ' + ${scheduledRate} + ' milliseconds'" />
+    <p th:text="'Query: ' + ${pingQuery}" />
+</body>
+</html>
